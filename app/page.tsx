@@ -421,7 +421,6 @@ export default function LandingPage() {
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
             <div className="flex flex-col space-y-4">
               <div className="flex items-center gap-2">
-                <Candle className="h-6 w-6 text-primary" />
                 <span className="text-xl font-handwriting font-bold">
                   Q'Candles
                 </span>
@@ -434,6 +433,7 @@ export default function LandingPage() {
                 <Link
                   href="https://www.facebook.com/profile.php?id=61570950431041"
                   className="text-muted-foreground hover:text-foreground"
+                  target="_blank"
                 >
                   <Facebook className="h-5 w-5" />
                   <span className="sr-only">Facebook</span>
@@ -441,6 +441,7 @@ export default function LandingPage() {
                 <Link
                   href="https://www.instagram.com/qcandles.vn"
                   className="text-muted-foreground hover:text-foreground"
+                  target="_blank"
                 >
                   <Instagram className="h-5 w-5" />
                   <span className="sr-only">Instagram</span>
