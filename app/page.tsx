@@ -94,7 +94,8 @@ export default function LandingPage() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-handwriting tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
-                    Thắp sáng không gian sống của bạn
+                    Khơi nguồn hương,
+                    <br /> kể chuyện yêu thương
                   </h1>
                   <p className="max-w-[600px] text-white md:text-xl">
                     Nến thơm và nến trang trí thủ công mang đến không gian ấm áp
@@ -124,6 +125,46 @@ export default function LandingPage() {
           </div>
         </section>
 
+        {/* Vision & Mission Section */}
+        <section id="vision-mission" className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-primary px-3 py-1 text-sm text-primary-foreground">
+                  Định hướng thương hiệu
+                </div>
+                <h2 className="text-3xl font-handwriting tracking-tighter md:text-4xl">
+                  Tầm nhìn & Sứ mệnh của Q’Candles
+                </h2>
+                <h3 className="max-w-[600px] text-muted-foreground md:text-lg">
+                  Hòa quyện nghệ thuật và cảm xúc trong từng ngọn nến
+                </h3>
+              </div>
+              <div className="grid max-w-5xl gap-6 md:grid-cols-2 lg:gap-12">
+                <div className="flex flex-col items-center space-y-3 rounded-lg border bg-background p-6 shadow-sm">
+                  <h3 className="text-xl font-bold">✨ Tầm nhìn (Vision)</h3>
+                  <p className="text-center text-sm text-muted-foreground">
+                    Trở thành thương hiệu nến{" "}
+                    <strong>hiện đại hàng đầu tại Việt Nam</strong>, không chỉ
+                    mang đến sản phẩm chất lượng, an toàn mà còn xây dựng không
+                    gian <strong>sáng tạo & kết nối</strong> cho mọi gia đình
+                    thông qua trải nghiệm làm nến độc đáo.
+                  </p>
+                </div>
+                <div className="flex flex-col items-center space-y-3 rounded-lg border bg-background p-6 shadow-sm">
+                  <h3 className="text-xl font-bold">💛 Sứ mệnh (Mission)</h3>
+                  <p className="text-center text-sm text-muted-foreground">
+                    <strong>"Thắp sáng cảm xúc, kết nối yêu thương"</strong> –
+                    Q’Candles không chỉ tạo ra nến, mà còn khơi nguồn sáng tạo
+                    và kỷ niệm, biến mỗi sản phẩm thành một{" "}
+                    <strong>câu chuyện cảm xúc</strong> trong từng gia đình.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Features Section */}
         <section
           id="features"
@@ -139,8 +180,9 @@ export default function LandingPage() {
                   Tại sao bạn nên chọn nến của Q'Candles?
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-lg">
-                  Chúng tôi tạo ra những sản phẩm nến thơm và nến trang trí chất
-                  lượng cao, thủ công và độc đáo.
+                  Tại Q'Candles, chúng tôi tạo ra những sản phẩm nến thơm, nến
+                  thờ hiện đại và nến trang trí chất lượng cao, thủ công và độc
+                  đáo.
                 </p>
               </div>
             </div>

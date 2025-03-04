@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: "Q'Candles - Nến thơm handmade & Nến thờ hiện đại",
+  title: "Q'Candles - Khơi nguồn hương, kể chuyện yêu thương",
   description:
-    "Thắp sáng cảm xúc với những ngọn nến thơm handmade từ Q’Candles. Trải nghiệm workshop sáng tạo hoặc tự tay làm nến để lưu giữ kỷ niệm. Đăng ký ngay!",
+    "Bạn đã bao giờ cảm thấy mùi hương có thể gợi nhớ một kỷ niệm đặc biệt chưa? Tại Q’Candles, chúng tôi không chỉ mang đến những ngọn nến thơm handmade tinh tế, mà còn tạo ra những khoảnh khắc đáng nhớ. Hãy tham gia workshop làm nến và khám phá nghệ thuật thắp sáng cảm xúc!",
   generator: "v0.dev",
   keywords: [
     "candles",
