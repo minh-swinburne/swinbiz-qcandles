@@ -136,9 +136,9 @@ export default function LandingPage() {
                   Đặc điểm nổi bật
                 </div>
                 <h2 className="text-3xl font-handwriting tracking-tighter md:text-4xl">
-                  Tại sao chọn Q'Candles?
+                  Tại sao bạn nên chọn nến của Q'Candles?
                 </h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl">
+                <p className="max-w-[900px] text-muted-foreground md:text-lg">
                   Chúng tôi tạo ra những sản phẩm nến thơm và nến trang trí chất
                   lượng cao, thủ công và độc đáo.
                 </p>
@@ -199,7 +199,7 @@ export default function LandingPage() {
                 <h2 className="text-3xl font-handwriting tracking-tighter md:text-4xl">
                   Bộ sưu tập mới nhất
                 </h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl">
+                <p className="max-w-[900px] text-muted-foreground md:text-lg">
                   Khám phá những sản phẩm nến thơm và nến trang trí mới nhất của
                   chúng tôi.
                 </p>
@@ -229,13 +229,14 @@ export default function LandingPage() {
                     Workshop
                   </div>
                   <h2 className="text-3xl font-handwriting tracking-tighter md:text-4xl">
-                    Khám phá quy trình làm nến thủ công
+                    Workshop Làm Nến Handmade Kết Hợp Với Cafe
                   </h2>
-                  <p className="max-w-[600px] text-muted-foreground md:text-xl">
+                  <h3 className="max-w-[600px] text-muted-foreground md:text-lg">
                     Tại workshop của Q'Candles, mỗi sản phẩm đều được tạo ra
                     bằng tình yêu và sự tỉ mỉ. Chúng tôi mời bạn tham quan và
-                    trải nghiệm quy trình làm nến thủ công.
-                  </p>
+                    trải nghiệm quy trình làm nến thủ công trong một không gian
+                    thư giãn và sáng tạo tại quán cafe.
+                  </h3>
                 </div>
                 <ul className="space-y-2">
                   <li className="flex items-center">
@@ -267,7 +268,7 @@ export default function LandingPage() {
               <div className="relative aspect-video rounded-xl overflow-hidden shadow-xl">
                 <Image
                   src="/workshop_cafe.jpg?height=720&width=1280"
-                  alt="Workshop Q'Candles"
+                  alt="Workshop nến Q'Candles kết hợp quán cà phê - nơi sáng tạo, thư giãn và kết nối yêu thương"
                   fill
                   className="object-cover"
                 />
@@ -297,10 +298,10 @@ export default function LandingPage() {
                 <h2 className="text-3xl font-handwriting tracking-tighter md:text-4xl">
                   Khách hàng nói gì về chúng tôi
                 </h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl">
-                  Hãy xem những chia sẻ từ khách hàng đã trải nghiệm sản phẩm
-                  của Q'Candles.
-                </p>
+                <h3 className="max-w-[900px] text-muted-foreground md:text-lg">
+                  Những câu chuyện từ khách hàng – Nến không chỉ là ánh sáng, mà
+                  còn là cảm xúc
+                </h3>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
@@ -317,7 +318,7 @@ export default function LandingPage() {
                     src="/testimonial_2.jpg?height=40&width=40"
                     width={40}
                     height={40}
-                    alt="Nguyễn Thị Mai"
+                    alt="Câu chuyện khách hàng tại Q'Candles - Nguyễn Thị Mai"
                     className="rounded-full"
                   />
                   <div>
@@ -341,7 +342,7 @@ export default function LandingPage() {
                     src="/testimonial_1.jpg?height=40&width=40"
                     width={40}
                     height={40}
-                    alt="Trần Văn Hùng"
+                    alt="Câu chuyện khách hàng tại Q'Candles - Trần Văn Hùng"
                     className="rounded-full"
                   />
                   <div>
@@ -365,7 +366,7 @@ export default function LandingPage() {
                     src="/testimonial_3.jpg?height=40&width=40"
                     width={40}
                     height={40}
-                    alt="Lê Thị Hương"
+                    alt="Câu chuyện khách hàng tại Q'Candles - Lê Thị Hương"
                     className="rounded-full"
                   />
                   <div>
@@ -549,7 +550,7 @@ export default function LandingPage() {
               <ul className="list-disc pl-5 mt-1">
                 <li>Lê Vân Anh</li>
                 <li>Đinh Thị Quỳnh Như</li>
-                <li>Phạm Tố Tâm</li>
+                <li>Phạm Ngọc Tố Tâm</li>
                 <li>Nguyễn Thị Thanh Minh</li>
               </ul>
             </div>

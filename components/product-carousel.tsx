@@ -105,7 +105,7 @@ export default function ProductCarousel() {
                   <div className="relative h-48 mb-4">
                     <Image
                       src={product.image || "/placeholder.svg"}
-                      alt={product.name}
+                      alt={`Sản phấm tại Q'Candles - ${product.name}`}
                       fill
                       className="object-cover rounded-md"
                     />
