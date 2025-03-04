@@ -432,14 +432,14 @@ export default function LandingPage() {
               </p>
               <div className="flex space-x-4">
                 <Link
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=61570950431041"
                   className="text-muted-foreground hover:text-foreground"
                 >
                   <Facebook className="h-5 w-5" />
                   <span className="sr-only">Facebook</span>
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.instagram.com/qcandles.vn"
                   className="text-muted-foreground hover:text-foreground"
                 >
                   <Instagram className="h-5 w-5" />
